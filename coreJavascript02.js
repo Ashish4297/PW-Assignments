@@ -3,7 +3,6 @@ the arrow function to calculate the square of a given number and display the res
 
 const square = (num) => num * num;
 
-// Example usage:
 const number = 5;
 const result = square(number);
 console.log("Square:", result); // Output: Square: 25
@@ -176,4 +175,5 @@ logs a message */
     const applyTenPercentDiscount = discountCalculator.applyDiscount.bind(discountCalculator);
     const discountedPrice = applyTenPercentDiscount(200);
     console.log("Discounted Price:", discountedPrice); // Output: Discounted Price: 180
+
         
